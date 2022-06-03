@@ -1,12 +1,12 @@
 import React from 'react';
+import TodoList from './components/TodoLIst';
 import UserList from "./components/UserList";
-import TodoList from "./components/TodoList";
 
 const App = () => {
     return (
         <div>
-            <UserList/>
-            <hr/>
+            <UserList />
+            <hr />
             <TodoList/>
         </div>
     );
