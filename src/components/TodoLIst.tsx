@@ -10,8 +10,6 @@ const TodoList: React.FC = () => {
         fetchTodos(page, limit)
     }, [page])
 
-
-
     if (loading) {
         return <h1>Loading...</h1>
     }
